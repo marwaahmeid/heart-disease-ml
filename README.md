@@ -28,3 +28,7 @@ uvicorn app:app --reload
 ## ▶️ Run Frontend
 
 python -m http.server 5500
+
+## 📊 Dashboard Preview
+
+![Dashboard](images/dashboard.png)
