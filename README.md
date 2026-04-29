@@ -20,7 +20,11 @@ This project uses Machine Learning (Random Forest) to predict heart disease.
 * Pandas
 * NumPy
 
-## ▶️ Run
+## ▶️ Run Backend
 
-uvicorn app:app --reload 
+uvicorn app:app --reload
+
+
+## ▶️ Run Frontend
+
 python -m http.server 5500
