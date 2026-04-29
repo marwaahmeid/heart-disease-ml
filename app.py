@@ -13,7 +13,7 @@ import os
 # 🔹 Load Model
 # =========================================
 
-MODEL_PATH = r"C:\Users\DELL\OneDrive\Desktop\task2\models\heart_rf_model.pkl"
+MODEL_PATH = "models/heart_rf_model.pkl"
 
 if not os.path.exists(MODEL_PATH):
     raise FileNotFoundError("Model file not found")
